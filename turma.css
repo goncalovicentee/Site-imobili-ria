@@ -1,0 +1,61 @@
+/* turma.css */
+
+body { font-family: 'Merriweather', serif; }
+
+.nome { 
+        font-size: 1.6em;
+        font-weight: 700;
+      }
+
+.numero {
+         font-size:1.2em;
+         font-weight: 300;
+        }   
+
+        img{
+            max-width:350%;
+            height:150%;
+        }
+/* Contentor dos <li> */ 
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+li { 
+    width: 30%;
+    margin-bottom: 60px;
+    display:flex;
+    align-items: center;
+}
+
+h2
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+body { 
+    background-color:cadetblue;
+ }
+
+ div.info {
+      text-align: start;
+    display: flex;
+}
+
+
+div.foto { 
+            width: 100px;
+            height: 140px;
+
+            display:inline;
+            align-items: center;
+         }
+
+         div.foto { margin: 70px;}
+
+
+        
