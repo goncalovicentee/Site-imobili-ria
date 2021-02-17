@@ -10,6 +10,7 @@ body { font-family: 'Merriweather', serif; }
 .numero {
          font-size:1.2em;
          font-weight: 300;
+         color: rgb(255, 255, 255);
         }   
 
         img{
@@ -42,8 +43,11 @@ body {
  }
 
  div.info {
+     margin-left:1%;
       text-align: start;
     display: flex;
+    flex-direction: column;
+    width: 32%;
 }
 
 
@@ -54,6 +58,8 @@ div.foto {
 
          div.detalhes{width:16.4%;}
 
+
+         
         
 
 
